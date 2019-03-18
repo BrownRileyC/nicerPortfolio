@@ -1,0 +1,19 @@
+{
+  "name": "nicerportfolio",
+  "version": "1.0.0",
+  "description": "A nicer version of my portfolio using materialize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrownRileyC/nicerPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrownRileyC/nicerPortfolio/issues"
+  },
+  "homepage": "https://github.com/BrownRileyC/nicerPortfolio#readme"
+}
