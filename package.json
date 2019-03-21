@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BrownRileyC/nicerPortfolio/issues"
   },
-  "homepage": "https://github.com/BrownRileyC/nicerPortfolio#readme"
+  "homepage": "https://github.com/BrownRileyC/nicerPortfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
