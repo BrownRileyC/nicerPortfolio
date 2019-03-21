@@ -1,14 +1,180 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Riley Brown, Dev Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </head>
+
 <body>
-    
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">RCBrown</a>
+            <ul id="nav-mobile" class="right">
+                <li><a id="contactNav">Contact</a></li>
+                <li><a id="portfolioNav">Portfolio</a></li>
+                <li><a id="aboutMeNav">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="index-banner">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <h1 class="header center deep-purple-text lighten-3">Riley Brown, a Portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section" id="about-me-start">
+            <div class="row">
+                <div class="col s12 m6 valign-wrapper">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">My Core Skills</span>
+                            <p>I've learned a variety of skills in the course of my studies to become a full stack
+                                developer</p>
+                            <ul>
+                                <li>I am confidant in my Javascript skills and eager to learn more when needed.
+                                </li>
+                                <li>I know how to create a Sql database and tables and query to retrieve data from them.
+                                </li>
+                                <li>I know how to write and format a webpage using HTML and CSS as well as
+                                    am familiar with bootstrap and materialize as frameworks</li>
+                                <li>Over the course of my studies I have used and become comfortable
+                                    learning new JS libraries.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="container">
+                        <h4>About Me</h4>
+                        <p>My name is Riley Brown. I was born and raised in the suburbs of Philadelphia. I attended
+                            William Penn Charter school and then studied psychology at the University of Vermont with a
+                            focus on
+                            developmental psychology. It's a fascinating field, in my opinion, and something very
+                            deserving of more study.</p>
+                        <p>After graduating I decided to pursue a career working with young children, but not as a
+                            counselor and instead an educator. I was lucky to find a position working as a preschool and
+                            kindergarten prepratory teacher.</p>
+                        <p>After my two years working with these children I realized that while I love working with kids
+                            that young, it wasn't what I wanted to do the rest of my life. That's what led me here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/City Hall Day.jpg"></div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="section" id="portfolio-start">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">My Portfolio</span>
+                            <p>Over the course of my studies I have created a variety of different applications.</p>
+                            <p>Several of these applications were quite simple and truly just an exercise in showing an
+                                understanding of the subject.</p>
+                            <p>Some projects were more substantial and were intended as a chance to build something
+                                useful.</p>
+                            <p>These are those projects and where you can observe them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m8">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Associates</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><a href="https://dammalex3.github.io/beer-genie/" target="_blank">The Beer Genie</a>
+                                </td>
+                                <td>A simple webapp that allows a user to select a style of beer and returns a
+                                    randomized list of beers that belong to that style. It also searches up a recipe to
+                                    pair with each beer returned.</td>
+                                <td>Mykola Duffy, Alex Damm, Miquan Brinkley, and myself</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://you-got-this.herokuapp.com" target="_blank">You Got This</a></td>
+                                <td>A helpful webapp designed to assist people in preparing for interviews,
+                                    presentations, and networking events. The site allows users to track their progress
+                                    on tasks to prepare and offers a simple survey to evaluate how they feel they
+                                    preformed at the event.</td>
+                                <td>Alex Damm, Hector Benitez, and myself</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/City Hall.jpg"></div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="section" id="contact-start">
+            <div class="row center-align">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <p>Here are the various ways you can contact me or find more of the work that I've done.</p>
+                        </div>
+                        <div class="card-tabs">
+                            <ul class="tabs tabs-fixed-width">
+                                <li class="tab"><a href="#test4">Github</a></li>
+                                <li class="tab"><a class="active" href="#test5">Email</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-content grey lighten-4">
+                            <div id="test4"><a href="https://github.com/BrownRileyC" target="_blank">BrownRileyC</a>
+                            </div>
+                            <div id="test5">Brown.Riley.C@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Thanks for visiting my site</h5>
+                    <p class="grey-text text-lighten-4">This site was designed using the materializecss framework.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019
+                <a class="grey-text text-lighten-4 right" href="https://github.com/BrownRileyC">My github</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
+
 </html>
