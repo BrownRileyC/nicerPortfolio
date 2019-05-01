@@ -1,6 +1,9 @@
 body {
     background-color: #c5cae9;
 }
+.navName {
+    margin-right: 15px;
+}
 .tabs .indicator{
     background-color: #9575cd
 }
